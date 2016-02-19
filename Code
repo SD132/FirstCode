@@ -1,0 +1,15 @@
+import random
+
+def main():
+
+    flip = random.randrange(2)
+
+    if flip == 0:
+        print("heads")
+
+    else:
+
+        print("tails")
+
+
+main()
